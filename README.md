@@ -41,6 +41,7 @@ Describe your fixed game in numbered steps so a reader can follow along without 
 6. Game ends after the correct guess
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
+<img width="758" height="872" alt="Screenshot 2026-10-09 100027" src="https://github.com/user-attachments/assets/9adf5a2f-602c-4e44-a2c3-c81eca64c045" />
 
 ## 🧪 Test Results
 
