@@ -1,6 +1,15 @@
 import random
 import streamlit as st
 
+# Allow `python app.py` to work: relaunch through Streamlit if not already inside it
+if __name__ == "__main__":
+    from streamlit import runtime
+    if not runtime.exists():
+        import sys
+        from streamlit.web import cli as stcli
+        sys.argv = ["streamlit", "run", sys.argv[0]]
+        sys.exit(stcli.main())
+
 def get_range_for_difficulty(difficulty: str):
     if difficulty == "Easy":
         return 1, 20
