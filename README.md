@@ -48,6 +48,13 @@ Describe your fixed game in numbered steps so a reader can follow along without 
 ```
 # Paste your pytest output here, e.g.:
 # pytest tests/
+History:
+
+[
+0:50
+1:80
+2:70
+]
 # ========================= X passed in 0.XXs =========================
 ```
 
